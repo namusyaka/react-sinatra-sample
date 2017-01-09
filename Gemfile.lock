@@ -1,0 +1,57 @@
+GIT
+  remote: git@github.com:namusyaka/react-sinatra.git
+  revision: 13b7d86898d93041ec76949451e3d3a42fbc2aab
+  specs:
+    react-sinatra (0.1.0)
+      activesupport
+      connection_pool
+      padrino-helpers
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    concurrent-ruby (1.0.4)
+    connection_pool (2.2.1)
+    execjs (2.7.0)
+    haml (4.0.7)
+      tilt
+    i18n (0.7.0)
+    libv8 (5.3.332.38.3)
+    mini_racer (0.1.7)
+      libv8 (~> 5.3)
+    minitest (5.10.1)
+    padrino-helpers (0.13.3.3)
+      i18n (~> 0.6, >= 0.6.7)
+      padrino-support (= 0.13.3.3)
+      tilt (>= 1.4.1, < 3)
+    padrino-support (0.13.3.3)
+      activesupport (>= 3.1)
+    rack (1.6.5)
+    rack-protection (1.5.3)
+      rack
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    thread_safe (0.3.5)
+    tilt (2.0.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  execjs
+  haml
+  mini_racer
+  react-sinatra!
+  sinatra
+
+BUNDLED WITH
+   1.13.6
