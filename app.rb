@@ -11,6 +11,8 @@ configure do
     config.pool_size    = 5
     config.pool_timeout = 10
   end
+
+  React::Sinatra::Pool.pool.reset
 end
 
 set :views, File.join(__dir__, 'views')
