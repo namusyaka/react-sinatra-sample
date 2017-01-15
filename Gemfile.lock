@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:namusyaka/react-sinatra.git
-  revision: 13b7d86898d93041ec76949451e3d3a42fbc2aab
+  revision: 85b8c4aa86ac664ee2aca02a4824aaa5d622c1dd
   specs:
     react-sinatra (0.1.0)
       activesupport
