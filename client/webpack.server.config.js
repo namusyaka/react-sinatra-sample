@@ -11,7 +11,7 @@ module.exports = {
       filename: './dist/server.js'
     },
     module: {
-      loaders: [
+      rules: [
         {
           test: /\.js$/,
           loader: 'babel-loader',
@@ -20,6 +20,6 @@ module.exports = {
       ]
     },
     resolve: {
-      extensions: ['', '.js', '.jsx']
+      extensions: ['.js', '.jsx']
     }
 };
